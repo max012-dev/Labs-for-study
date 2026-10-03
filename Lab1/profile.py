@@ -24,11 +24,10 @@ while True:
         print('Заполните поле')
 while True:
     age = int(input('Возраст: '))
-    if age:
-        if age in range(1, 121):
-            break
-        if age not in range(0, 121):
-            print("Неверный ввод!")
+    if age in range(1, 121):
+        break
+    if age not in range(0, 121):
+        print("Неправильно указан возраст!")
     else:
         print('Заполните поле')
 while True:
@@ -39,11 +38,10 @@ while True:
         print('Заполните поле')
 while True:
     chas = float(input('Часы подготовки в неделю: '))
-    if chas:
-        if chas <= 0:
-            print("Неверный ввод!")
-        else:
-            break
+    if chas <= 0:
+        print("Неверный ввод!")
+    else:
+        break
 future_age = age + 4
 total_hours_4_weeks = round(chas * 4, 2)
 avg_daily_hours = round(chas / 7, 2)
