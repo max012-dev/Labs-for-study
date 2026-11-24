@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Открытие сезона",
+    "category": "основное",
+    "amount": 120,
+    "completed": true
+  },
+  {
+    "id": 2,
+    "title": "Мастер-класс по Python",
+    "category": "дополнительное",
+    "amount": 35,
+    "completed": false
+  },
+  {
+    "id": 3,
+    "title": "Хакатон факультета",
+    "category": "основное",
+    "amount": 80,
+    "completed": false
+  },
+  {
+    "id": 4,
+    "title": "Экскурсия в технопарк",
+    "category": "вывозное",
+    "amount": 45,
+    "completed": true
+  }
+]
